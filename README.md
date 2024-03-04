@@ -4,5 +4,5 @@
 
 | Name Surname (initials) | GUID                                     |
 | ----------------------- | ---------------------------------------- |
-| AB                      | `{FD9D086C-532F-4AAC-BB99-69D7798837D8}` |
-| Jan Kowalski            | `{44FBFCF5-4430-4964-878D-1867DC679E0D}` |
+| Kamil Grzelarczyk (KG)  | `{CC1D00B2-4FD3-4234-9306-8D9EC5ED05D1}` |
+| Artur Szewczykowski (AS)| `{DB99EF4A-B014-4141-B009-E5928A9FFFF3}` |
