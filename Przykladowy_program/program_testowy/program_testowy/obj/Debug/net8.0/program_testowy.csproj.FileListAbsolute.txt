@@ -1,0 +1,14 @@
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\bin\Debug\net8.0\program_testowy.exe
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\bin\Debug\net8.0\program_testowy.deps.json
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\bin\Debug\net8.0\program_testowy.runtimeconfig.json
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\bin\Debug\net8.0\program_testowy.dll
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\bin\Debug\net8.0\program_testowy.pdb
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\obj\Debug\net8.0\program_testowy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\obj\Debug\net8.0\program_testowy.AssemblyInfoInputs.cache
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\obj\Debug\net8.0\program_testowy.AssemblyInfo.cs
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\obj\Debug\net8.0\program_testowy.csproj.CoreCompileInputs.cache
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\obj\Debug\net8.0\program_testowy.dll
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\obj\Debug\net8.0\refint\program_testowy.dll
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\obj\Debug\net8.0\program_testowy.pdb
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\obj\Debug\net8.0\program_testowy.genruntimeconfig.cache
+C:\Users\Kamil2\source\Repos\ProgTest\program_testowy\program_testowy\obj\Debug\net8.0\ref\program_testowy.dll
