@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3xYyN649Apb8jikrVKSu8i5zEErcKrgFJbLdYmhTVwNmYinUxJ16bDrLx4W93TxXJK/BfxjEz9YOBvJE7uyWwg==",
+  "dgSpecHash": "UnFzZbaXpgaytW2Sc/tH6W9vDU08a5BPsUKmIUyWooLHNS/Dwh9zsAvLtLW4nuKXYjTP2qDpeB56Mad6sZbKag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\Testy\\Testy.csproj",
+  "projectFilePath": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\Testy\\Testy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kamil2\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Kamil2\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

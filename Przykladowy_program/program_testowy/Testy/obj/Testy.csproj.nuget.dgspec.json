@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\Testy\\Testy.csproj": {}
+    "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\Testy\\Testy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\program_testowy\\program_testowy.csproj": {
+    "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\program_testowy\\program_testowy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\program_testowy\\program_testowy.csproj",
+        "projectUniqueName": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\program_testowy\\program_testowy.csproj",
         "projectName": "program_testowy",
-        "projectPath": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\program_testowy\\program_testowy.csproj",
+        "projectPath": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\program_testowy\\program_testowy.csproj",
         "packagesPath": "C:\\Users\\Kamil2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\program_testowy\\obj\\",
+        "outputPath": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\program_testowy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kamil2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\Testy\\Testy.csproj": {
+    "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\Testy\\Testy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\Testy\\Testy.csproj",
+        "projectUniqueName": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\Testy\\Testy.csproj",
         "projectName": "Testy",
-        "projectPath": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\Testy\\Testy.csproj",
+        "projectPath": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\Testy\\Testy.csproj",
         "packagesPath": "C:\\Users\\Kamil2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\Testy\\obj\\",
+        "outputPath": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\Testy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kamil2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\program_testowy\\program_testowy.csproj": {
-                "projectPath": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\program_testowy\\program_testowy.csproj"
+              "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\program_testowy\\program_testowy.csproj": {
+                "projectPath": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\program_testowy\\program_testowy.csproj"
               }
             }
           }

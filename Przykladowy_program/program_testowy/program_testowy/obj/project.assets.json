@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\program_testowy\\program_testowy.csproj",
+      "projectUniqueName": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\program_testowy\\program_testowy.csproj",
       "projectName": "program_testowy",
-      "projectPath": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\program_testowy\\program_testowy.csproj",
+      "projectPath": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\program_testowy\\program_testowy.csproj",
       "packagesPath": "C:\\Users\\Kamil2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kamil2\\source\\Repos\\Programowanie-Wspolbiezne\\Przykladowy_program\\program_testowy\\program_testowy\\obj\\",
+      "outputPath": "C:\\Users\\Kamil2\\source\\Repos\\ProgTest\\program_testowy\\program_testowy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kamil2\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -18,21 +18,15 @@ namespace Testy
         }
 
         [Test]
-        public void odejmijTest()
+        public void dodajTest2()
         {
-            Assert.AreEqual(3, k.Odejmij(4, 1));
+            Assert.AreEqual(1, k.Dodaj(-1, 2));
         }
 
         [Test]
-        public void pomnozTest()
+        public void dodawanieZleTest()
         {
-            Assert.AreEqual(12, k.Pomnoz(4, 3));
-        }
-
-        [Test]
-        public void podzielTest()
-        {
-            Assert.AreEqual(2.5, k.Podziel(5, 2));
+            Assert.IsFalse(4 == k.Dodaj(3,3));
         }
     }
 }
