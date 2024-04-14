@@ -7,12 +7,17 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              Background="Maroon">
-    <Grid>
-        <TextBlock Text="Tu będą kuleczki"
-                   Foreground="White"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   FontSize="40"/>
-
-    </Grid>
+    <Canvas Name="kulkodom" Background="LightBlue" >
+        <ItemsControl ItemsSource="{Binding Ellipses}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Ellipse Width="100" Height="100" Fill="{Binding Color}">
+                        <Ellipse.RenderTransform>
+                            <TranslateTransform X="{Binding X}" Y="{Binding Y}"/>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Canvas>
 </UserControl>

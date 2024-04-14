@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mvvm\\viewmodel\\kulkomaniaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|solutionrelative:mvvm\\viewmodel\\kulkomaniaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mvvm\\view\\autorzyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|solutionrelative:mvvm\\view\\autorzyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mvvm\\view\\kulkomaniaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|solutionrelative:mvvm\\view\\kulkomaniaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mvvm\\model\\ellipsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|solutionrelative:mvvm\\model\\ellipsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mvvm\\view\\kulkomaniaview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|solutionrelative:mvvm\\view\\kulkomaniaview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mvvm\\view\\autorzyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|solutionrelative:mvvm\\view\\autorzyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mvvm\\viewmodel\\kulkomaniaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|solutionrelative:mvvm\\viewmodel\\kulkomaniaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9E11116-AD25-4739-87CE-7DDBF24ED40D}|kulki3.csproj|c:\\users\\kamil2\\documents\\github\\programowanie-wspolbiezne\\kulki3\\mvvm\\viewmodel\\autorzyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,17 +66,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "KulkomaniaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MVVM\\ViewModel\\KulkomaniaViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\KulkomaniaViewModel.cs",
               "ToolTip": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MVVM\\ViewModel\\KulkomaniaViewModel.cs",
               "RelativeToolTip": "MVVM\\ViewModel\\KulkomaniaViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwC0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T17:10:00.674Z",
               "EditorCaption": ""
@@ -87,7 +95,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "KulkomaniaView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MVVM\\View\\KulkomaniaView.xaml.cs",
+              "RelativeDocumentMoniker": "MVVM\\View\\KulkomaniaView.xaml.cs",
+              "ToolTip": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MVVM\\View\\KulkomaniaView.xaml.cs",
+              "RelativeToolTip": "MVVM\\View\\KulkomaniaView.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T11:35:28.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AutorzyView.xaml",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MVVM\\View\\AutorzyView.xaml",
               "RelativeDocumentMoniker": "MVVM\\View\\AutorzyView.xaml",
@@ -99,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MVVM\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\MainViewModel.cs",
@@ -107,12 +128,11 @@
               "RelativeToolTip": "MVVM\\ViewModel\\MainViewModel.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAA0wCwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:26:26.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T16:26:26.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -124,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\Core\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Core\\RelayCommand.cs",
@@ -132,12 +152,11 @@
               "RelativeToolTip": "Core\\RelayCommand.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T15:16:43.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T15:16:43.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ObservableObject.cs",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\Core\\ObservableObject.cs",
               "RelativeDocumentMoniker": "Core\\ObservableObject.cs",
@@ -145,25 +164,23 @@
               "RelativeToolTip": "Core\\ObservableObject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T15:12:42.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T15:12:42.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "kulki3",
+              "DocumentIndex": 12,
+              "Title": "kulki3.csproj",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\kulki3.csproj",
               "RelativeDocumentMoniker": "kulki3.csproj",
               "ToolTip": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\kulki3.csproj",
               "RelativeToolTip": "kulki3.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-13T15:10:28.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T15:10:28.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -175,7 +192,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "EllipseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MVVM\\Model\\EllipseModel.cs",
+              "RelativeDocumentMoniker": "MVVM\\Model\\EllipseModel.cs",
+              "ToolTip": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MVVM\\Model\\EllipseModel.cs",
+              "RelativeToolTip": "MVVM\\Model\\EllipseModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:13:48.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MenuButtonTheme.xaml",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\Theme\\MenuButtonTheme.xaml",
               "RelativeDocumentMoniker": "Theme\\MenuButtonTheme.xaml",
@@ -187,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AutorzyViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MVVM\\ViewModel\\AutorzyViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\AutorzyViewModel.cs",
@@ -195,12 +225,11 @@
               "RelativeToolTip": "MVVM\\ViewModel\\AutorzyViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:54:44.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T16:54:44.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Kamil2\\Documents\\GitHub\\Programowanie-Wspolbiezne\\kulki3\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -208,8 +237,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T15:05:22.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T15:05:22.186Z"
             }
           ]
         }
