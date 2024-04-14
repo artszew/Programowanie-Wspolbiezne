@@ -1,0 +1,23 @@
+﻿<Application x:Class="kulki3.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:kulki3"
+             xmlns:viewModel="clr-namespace:kulki3.MVVM.ViewModel"
+             xmlns:view="clr-namespace:kulki3.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:AutorzyViewModel}">
+                <view:AutorzyView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:KulkomaniaViewModel}">
+                <view:KulkomaniaView/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
