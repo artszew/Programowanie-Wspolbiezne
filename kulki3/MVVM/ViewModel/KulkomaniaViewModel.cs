@@ -37,12 +37,12 @@ namespace kulki3.MVVM.ViewModel
         private void InitializeEllipses()
         {
             Random random = new Random();
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 15; i++)
             {
                 EllipseModel ellipse = new EllipseModel
                 {
-                    X = random.Next(0+50, 800-50), // Bounds for X coordinate
-                    Y = random.Next(0+50, 450-50), // Bounds for Y coordinate
+                    X = random.Next(50, 550), // Bounds for X coordinate
+                    Y = random.Next(0+50, 100), // Bounds for Y coordinate
                     Color = Brushes.Blue // Color
                 };
                 Ellipses.Add(ellipse);
@@ -62,10 +62,10 @@ namespace kulki3.MVVM.ViewModel
                     ellipse.Y += random.Next(-5, 6);
 
                     // Ensure ellipses stay within the bounds
-                    if (ellipse.X < 0) ellipse.X = 0;
-                    if (ellipse.X > 800-50) ellipse.X = 800-50;
+                    if (ellipse.X < 50) ellipse.X = 50;
+                    if (ellipse.X > 550) ellipse.X = 550;
                     if (ellipse.Y < 0) ellipse.Y = 0;
-                    if (ellipse.Y > 450-50) ellipse.Y = 450-50;
+                    if (ellipse.Y > 400) ellipse.Y = 400;
                 }
 
                 Thread.Sleep(20); // Adjust sleep time as needed for desired speed

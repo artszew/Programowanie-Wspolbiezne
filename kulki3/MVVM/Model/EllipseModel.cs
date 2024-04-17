@@ -8,7 +8,7 @@ using System.Windows.Media;
 
 namespace kulki3.MVVM.Model
 {
-    class EllipseModel : INotifyPropertyChanged
+    public class EllipseModel : INotifyPropertyChanged
     {
         private double _x;
         public double X
