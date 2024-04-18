@@ -1,4 +1,4 @@
-﻿using kulki3.MVVM.Model;
+using kulki3.MVVM.Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -38,12 +38,12 @@ namespace kulki3.MVVM.ViewModel
         private void InitializeEllipses()
         {
             Random random = new Random();
-            for (int i = 0; i < 15; i++)
+            for (int i = 0; i < 5; i++)
             {
                 EllipseModel ellipse = new EllipseModel
                 {
-                    X = random.Next(50, 550), // Bounds for X coordinate
-                    Y = random.Next(0+50, 100), // Bounds for Y coordinate
+                    X = random.Next(300, 500), // Bounds for X coordinate
+                    Y = random.Next(50, 200), // Bounds for Y coordinate
                     Color = Brushes.Blue // Color
                 };
                 Ellipses.Add(ellipse);
@@ -61,30 +61,18 @@ namespace kulki3.MVVM.ViewModel
                 foreach (var ellipse in Ellipses)
                 {
                     // Adjust position randomly for smooth movement
-                    _x = random.Next(-5, 6);
-                    _y = random.Next(-5, 6);
+                    _x = random.Next(-20, 20);
+                    _y = random.Next(-20, 20);
 
-                    if(_x == 0)
-                    {
-                        _x += 1;
-                    }
-
-                    if (_y == 0)
-                    {
-                        _y += 1;
-                    }
+                    // Ensure ellipses stay within the bounds
+                    if (((ellipse.X + _x) < 50) || ((ellipse.X + _x) > 650)) { _x = 0; }
+                    if (((ellipse.Y + _y) < 0) || ((ellipse.Y + _y) > 250)) { _y = 0; }
 
                     ellipse.X += _x;
                     ellipse.Y += _y;
-
-                    // Ensure ellipses stay within the bounds
-                    if (ellipse.X < 50) ellipse.X = 50;
-                    if (ellipse.X > 550) ellipse.X = 550;
-                    if (ellipse.Y < 0) ellipse.Y = 0;
-                    if (ellipse.Y > 400) ellipse.Y = 400;
                 }
 
-                Thread.Sleep(20); // Adjust sleep time as needed for desired speed
+                Thread.Sleep(30); // Adjust sleep time as needed for desired speed
             }
         }
 
@@ -100,27 +88,15 @@ namespace kulki3.MVVM.ViewModel
                 foreach (var ellipse in Ellipses)
                 {
                     // Adjust position randomly for smooth movement
-                    _x = random.Next(-5, 6);
-                    _y = random.Next(-5, 6);
+                    _x = random.Next(-2, 2);
+                    _y = random.Next(-2, 2);
 
-                    if (_x == 0)
-                    {
-                        _x += 1;
-                    }
-
-                    if (_y == 0)
-                    {
-                        _y += 1;
-                    }
+                    // Ensure ellipses stay within the bounds
+                    if (((ellipse.X + _x) < 50) || ((ellipse.X + _x) > 550)) { _x = 0; }
+                    if (((ellipse.Y + _y) < 0) || ((ellipse.Y + _y) > 400)) { _y = 0; }
 
                     ellipse.X += _x;
                     ellipse.Y += _y;
-
-                    // Ensure ellipses stay within the bounds
-                    if (ellipse.X < 50) ellipse.X = 50;
-                    if (ellipse.X > 550) ellipse.X = 550;
-                    if (ellipse.Y < 0) ellipse.Y = 0;
-                    if (ellipse.Y > 400) ellipse.Y = 400;
                 }
                 counter++;
                 Thread.Sleep(20); // Adjust sleep time as needed for desired speed
