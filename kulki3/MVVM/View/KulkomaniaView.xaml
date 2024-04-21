@@ -5,13 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:kulki3.MVVM.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800"
+             d:DesignHeight="505" d:DesignWidth="700"
              Background="Maroon">
     <Canvas Name="kulkodom" Background="LightBlue" >
         <ItemsControl ItemsSource="{Binding Ellipses}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Ellipse Width="100" Height="100" Fill="{Binding Color}">
+                    <Ellipse Width="50" Height="50" Fill="{Binding Color}">
                         <Ellipse.RenderTransform>
                             <TranslateTransform X="{Binding X}" Y="{Binding Y}"/>
                         </Ellipse.RenderTransform>
