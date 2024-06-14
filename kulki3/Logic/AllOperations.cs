@@ -4,6 +4,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Numerics;
 using System.Reflection.Metadata;
+using System.Text.Json;
 using System.Threading;
 
 
@@ -15,6 +16,8 @@ namespace Logic
         public event NotifyDelegateAllOperations.NotifyEllipseController? OnChange;
         private double _width;
         private double _length;
+        private readonly string logFilePath = "ellipses_log.json";
+        private readonly Timer logTimer;
         Barrier Wall;
        
 
@@ -29,8 +32,39 @@ namespace Logic
                 OnChange?.Invoke();
                 Thread.Sleep(10);
             });
+            ClearLogFile(logFilePath);
+            logTimer = new Timer(LogEllipses, null, 0, 1000); // Loguj co sekundę
         }
 
+        public void ClearLogFile(string filePath)
+        {
+            lock (_Kulkodom.Lock)
+            {
+                using (StreamWriter sw = new StreamWriter(filePath, false))
+                {
+                  sw.Write(string.Empty);
+                }
+            }
+        }
+
+        public void LogEllipses(object? state)
+        {
+            lock (_Kulkodom.Lock)
+            {
+                var ellipses = _Kulkodom.getRepository().ToArray();
+                var ellipsesData = ellipses.Select(e => new
+                {
+                    e.Id,
+                    e.X,
+                    e.Y,
+                    e.velocityX,
+                    e.velocityY
+                });
+
+                var jsonData = JsonSerializer.Serialize(ellipsesData);
+                File.AppendAllText(logFilePath, jsonData + Environment.NewLine);
+            }
+        }
 
         public void NewEllipse() {
             {
@@ -190,9 +224,11 @@ namespace Logic
                     }
                     Ellipse.X = n_X;
                     Ellipse.Y = n_Y;
+                  }
+            }    
+            
 
-                }
-            }     
+
         }
    
     public void ClearKulkodom()
