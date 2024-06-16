@@ -32,17 +32,17 @@ namespace Logic
                 OnChange?.Invoke();
                 Thread.Sleep(10);
             });
-            ClearLogFile(logFilePath);
-            logTimer = new Timer(LogEllipses, null, 0, 1000); // Loguj co sekundę
+            ClearLogFile(logFilePath); // Funkcja czyszcząca plik JSON każdorazowo na początku programu
+            logTimer = new Timer(LogEllipses, null, 0, 1000); // Loguj położenie kulek co sekundę
         }
 
-        public void ClearLogFile(string filePath)
+        public void ClearLogFile(string filePath) 
         {
             lock (_Kulkodom.Lock)
             {
                 using (StreamWriter sw = new StreamWriter(filePath, false))
                 {
-                  sw.Write(string.Empty);
+                  sw.Write(string.Empty); //nadpisanie = plik jest pusty
                 }
             }
         }
@@ -52,7 +52,7 @@ namespace Logic
             lock (_Kulkodom.Lock)
             {
                 var ellipses = _Kulkodom.getRepository().ToArray();
-                var ellipsesData = ellipses.Select(e => new
+                var ellipsesData = ellipses.Select(e => new //dane do zapisu
                 {
                     e.Id,
                     e.X,
