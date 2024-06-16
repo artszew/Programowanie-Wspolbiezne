@@ -5,17 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:View"
         mc:Ignorable="d"
-        Title="Kulkomania         Kamil Grzelarczyk   253201       Artur Szewczykowski   252546" Height="630" Width="880">
+        Title="Kulkomania" Height="630" Width="880">
     <Grid RenderTransformOrigin="1,1" Background="#FF0E46F1">
         <Grid.RowDefinitions>
             <RowDefinition Height="10"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Height="40" Width="889" Margin="10,0,0,0" >
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Height="40" Width="1350" Margin="10,0,0,0" RenderTransformOrigin="0.481,0.526" >
             <Button Content="Nowa kulka" Width="80" Height="40" Margin="0,0,20,0" Command="{Binding _add}" IsEnabled="{Binding IsAddEnable}" RenderTransformOrigin="0.467,-0.162" FontWeight="Bold" Background="LightBlue" Foreground="Black"/>
             <Button Content="Usuń kulkę" Width="75" Height="40" Margin="0,0,20,0" Command="{Binding _delete}" IsEnabled="{Binding IsDeleteEnable}" Background="LightBlue" FontWeight="Bold" Foreground="Black"/>
             <Button Content="Koniec programu" Width="110" Height="40" Command="{Binding _clear}" IsEnabled="{Binding IsClearEnable}" FontWeight="Bold" Background="LightBlue" Foreground="Black"/>
-            <TextBlock FontSize="18" Width="110" RenderTransformOrigin="0.52,0.576" Margin="360,0,0,0" VerticalAlignment="Center" FontWeight="Bold" Background="LightBlue" Foreground="Black" Text=" Ilość kulek: " Height="30"/>
+            <TextBlock FontSize="12" Width="321" RenderTransformOrigin="0.52,0.576" Margin="20,0,0,0" VerticalAlignment="Center" FontWeight="Bold" Background="LightBlue" Foreground="Black" Height="18"><Run Text=" "/><Run Text="Kamil Grzelarczyk 253201 Artur Szewczykowski 252546"/></TextBlock>
+            <TextBlock FontSize="18" Width="110" RenderTransformOrigin="0.52,0.576" Margin="20,0,0,0" VerticalAlignment="Center" FontWeight="Bold" Background="LightBlue" Foreground="Black" Text=" Ilość kulek: " Height="30"/>
             <TextBlock Text="{Binding GetSize}" FontSize="18" Background="LightBlue" VerticalAlignment="Center" Foreground="Black" Width="69" RenderTransformOrigin="0.514,0.538" Height="33"/>
         </StackPanel>
         <Canvas Grid.Row="0" Width="{Binding GetKulkodomWidth}" Height="{Binding GetKulkodomLength}" Background="LightBlue" HorizontalAlignment="Center" Margin="10,60,10,0" >

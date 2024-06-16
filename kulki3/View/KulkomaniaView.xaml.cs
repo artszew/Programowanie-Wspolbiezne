@@ -24,7 +24,9 @@ namespace View
             DataContext = new ViewModel.KulkomaniaViewModel();
         }
 
-        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
     }
 }
