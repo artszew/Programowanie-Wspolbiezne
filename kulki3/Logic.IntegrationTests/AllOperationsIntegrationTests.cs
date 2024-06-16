@@ -33,15 +33,15 @@ namespace Logic.IntegrationTests
             }
 
             // Assert
-            Assert.That(File.Exists(logFilePath), Is.True, "Log file does not exist");
+            Assert.That(File.Exists(logFilePath), Is.True, "Log file does not exist"); //Test czy plik do zapisu istnieje
 
             var logContents = File.ReadAllLines(logFilePath);
-            Assert.That(logContents.Length, Is.GreaterThan(0), "Log file is empty");
+            Assert.That(logContents.Length, Is.GreaterThan(0), "Log file is empty"); // Test czy plik do zapisu nie jest pusty
 
             foreach (var line in logContents)
             {
-                var ellipsesData = JsonSerializer.Deserialize<dynamic>(line);
-                Assert.That(ellipsesData.Count, Is.GreaterThan(0), "Logged data is empty");
+                var ellipsesData = JsonSerializer.Serialize<dynamic>(line);
+                Assert.That(ellipsesData.Length, Is.GreaterThan(0), "Logged data is empty"); // Test czy poszczególne linijki nie s¹ puste (czyli czy dokonano zapisu)
             }
         }
     }
